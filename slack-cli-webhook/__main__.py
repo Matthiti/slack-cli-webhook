@@ -11,7 +11,7 @@ def main():
     args = parser.parse_args()
     slack_cli = SlackCLI(args.webhook)
     if slack_cli.send_message(args.message):
-        print("Message successfully sent.")
+        print("Message sent successfully.")
         sys.exit(0)
     else:
         print("Sending message failed, please try again later.")

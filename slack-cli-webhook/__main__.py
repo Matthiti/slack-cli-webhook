@@ -1,5 +1,5 @@
 # __main__.py
-from slack_cli import SlackCLI
+from .slack_cli import SlackCLI
 from argparse import ArgumentParser
 import sys
 

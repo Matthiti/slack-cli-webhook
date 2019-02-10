@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="slack-cli-webhook",
-    version="0.1.6",
+    version="0.1.8",
     author="Matthijs Roelink",
     author_email="matthijs@roelink.eu",
     description="A Python package for sending messages to Slack",

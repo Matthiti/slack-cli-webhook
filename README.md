@@ -1,3 +1,3 @@
 # slack-cli-webhook
 
-Version 0.1.6
+Version 0.1.8

@@ -8,7 +8,7 @@ class SlackCLI:
 
     def send_message(self, message):
         try:
-            r = requests.post(url=self.webhook, data={
+            r = requests.post(url=self.webhook, json={
                 "text": message
             })
         except requests.RequestException:

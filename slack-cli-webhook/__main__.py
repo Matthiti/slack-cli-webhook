@@ -9,7 +9,6 @@ def main():
     parser.add_argument("-m", "--message", dest="message", help="message to send", required=True)
     parser.add_argument("-w", "--webhook", dest="webhook", help="webhook to send to", required=True)
     args = parser.parse_args()
-    print(args.message)
     slack_cli = SlackCLI(args.webhook)
     if slack_cli.send_message(args.message):
         print("Message successfully sent.")

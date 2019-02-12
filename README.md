@@ -26,7 +26,7 @@ python3 setup.py install
 ```
 ## Usage
 ### Help
-To see how to use this tool, you can use `-h` or `--help`:
+To get an idea of how to use this tool, you can use `-h` or `--help`:
 ```bash
 python -m slack-cli-webhook --help
 ```

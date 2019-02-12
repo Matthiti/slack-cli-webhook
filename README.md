@@ -1,5 +1,5 @@
 # slack-cli-webhook
-## Version 0.1.8
+Version 0.1.8
 
 A Python package for sending messages to Slack
 

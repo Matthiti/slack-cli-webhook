@@ -25,7 +25,12 @@ cd slack-cli-webhook
 python3 setup.py install
 ```
 ## Usage
+### Help
+To see how to use this tool, you can use `-h` or `--help`:
 ```bash
+python -m slack-cli-webhook --help
+```
+```
 usage: python -m slack-cli-webhook [-h] -m MESSAGE -w WEBHOOK
 
 optional arguments:

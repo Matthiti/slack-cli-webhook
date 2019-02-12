@@ -6,6 +6,7 @@ A Python package for sending messages to Slack
 ## Requirements
 - Python 3.x
 - pip for Python 3.x
+- [Incoming webhook](https://api.slack.com/incoming-webhooks) for the Slack app
 
 ## Installation
 To install with `pip`, run

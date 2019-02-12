@@ -27,7 +27,7 @@ python3 setup.py install
 ```
 ## Usage
 ```bash
-usage: python3 m slack-cli-webhook [-h] -m MESSAGE -w WEBHOOK
+usage: python -m slack-cli-webhook [-h] -m MESSAGE -w WEBHOOK
 
 optional arguments:
   -h, --help            show this help message and exit
@@ -35,4 +35,11 @@ optional arguments:
                         message to send
   -w WEBHOOK, --webhook WEBHOOK
                         webhook to send to
+```
+
+### Send a message
+A message can be specified with the `-m` or `--message` properties. Note that characters needs to be properly escaped. In addition to the message, a webhook needs to be provided to send the message to using `-w` or `--webhook`.
+
+```bash
+python -m slack-cli-webhook -m "Test" -w "https://hooks.slack.com/services/T00000000/B00000000/XXXXXXXXXXXXXXXXXXXXXXXX"
 ```

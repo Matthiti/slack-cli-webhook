@@ -9,7 +9,7 @@ A Python package for sending messages to Slack
 - [Incoming webhook](https://api.slack.com/incoming-webhooks) for the Slack app
 
 > Note:
-> This guide assumes only one Python version is installed, namely Python 3.x, and the executables are `python` and `pip`. In case Python 2.x is installed or Python 3.x is installed as `python3`, the keywords `python` and `pip` needs to be replaced by `python3` and `pip3` respectively.
+> This guide assumes that only one Python version is installed, namely Python 3.x, and that the executables are `python` and `pip`. In case Python 2.x is installed or Python 3.x is installed as `python3`, the keywords `python` and `pip` needs to be replaced by `python3` and `pip3` respectively.
 
 ## Installation
 To install with `pip`, run
